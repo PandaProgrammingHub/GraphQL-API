@@ -1,0 +1,31 @@
+{
+  "name": "GraphQL-React-Event-Booking",
+  "version": "1.0.0",
+  "description": "Event Booking APP using GraphQL, Node.js, MongoDB and React.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PandaProgrammingHub/GraphQL-React-Event-Booking.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Node.js",
+    "MongoDB",
+    "React.js"
+  ],
+  "author": "Santosh Panda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PandaProgrammingHub/GraphQL-React-Event-Booking/issues"
+  },
+  "homepage": "https://github.com/PandaProgrammingHub/GraphQL-React-Event-Booking#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  }
+}
